@@ -1,0 +1,118 @@
+.theme-switcher {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.theme-toggle-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: var(--theme-switcher-bg);
+  color: var(--theme-switcher-color);
+  font-size: 1.3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.theme-toggle-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.theme-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(20px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.theme-switcher.open .theme-options {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+  pointer-events: all;
+}
+
+.theme-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1rem;
+  border-radius: 25px;
+  border: 2px solid var(--theme-switcher-border);
+  background: var(--theme-switcher-bg);
+  color: var(--theme-switcher-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  backdrop-filter: blur(10px);
+}
+
+.theme-option:hover {
+  transform: translateX(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.theme-option.active {
+  background: var(--theme-primary);
+  color: var(--theme-text-light);
+  border-color: var(--theme-primary);
+  box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4);
+}
+
+.theme-option span {
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .theme-switcher {
+    right: 15px;
+    bottom: 15px;
+  }
+
+  .theme-toggle-btn {
+    width: 45px;
+    height: 45px;
+    font-size: 1.1rem;
+  }
+
+  .theme-options {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .theme-option {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .theme-switcher {
+    right: 10px;
+    bottom: 15px;
+  }
+
+  .theme-toggle-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+}
