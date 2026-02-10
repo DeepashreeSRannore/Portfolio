@@ -13,10 +13,10 @@ A responsive and interactive portfolio website showcasing my professional experi
   - 🌿 Light Nature Theme (with falling leaves and flowers)
   - 🤖 Tech Theme (with AI/ML icons and circuit patterns)
 
-- **Responsive Design**: 
-- **Smooth Animations**: 
-- **Interactive Navigation**:
-- **Dynamic Backgrounds**: 
+- **Responsive Design**
+- **Smooth Animations** 
+- **Interactive Navigation**
+- **Dynamic Backgrounds** 
 
 ## 🛠️ Technologies Used
 
@@ -51,5 +51,6 @@ This project is under the MIT License.
 ---
 
 Built with ❤️ using React and Vite
+
 
 
