@@ -151,7 +151,7 @@ const PortfolioPage = () => {
               <h3>Northeastern University</h3>
               <p className="degree">Masters in Data Science</p>
               <p className="period">Jan 2025 - Dec 2026</p>
-              <p className="gpa">GPA: 3.467</p>
+              <p className="gpa">GPA: 3.467/4</p>
               <div className="coursework">
                 <strong>Relevant Coursework:</strong>
                 <ul>
@@ -178,7 +178,7 @@ const PortfolioPage = () => {
               <h3>Visveswaraya Technological University</h3>
               <p className="degree">Bachelors in Engineering, Information Science Engineering</p>
               <p className="period">Aug 2018 - Aug 2022</p>
-              <p className="gpa">GPA: 8.74</p>
+              <p className="gpa">GPA: 8.74/10</p>
               <div className="coursework">
                 <strong>Relevant Coursework:</strong>
                 <ul>
@@ -511,3 +511,4 @@ const PortfolioPage = () => {
 }
 
 export default PortfolioPage
+
