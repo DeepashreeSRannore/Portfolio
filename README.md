@@ -4,9 +4,7 @@ A responsive and interactive portfolio website showcasing my professional experi
 
 ## 🌐 Live Website
 
-**Deployed on Vercel**: [View Live Portfolio](https://your-url.vercel.app)
-
-*(Update this URL after deployment)*
+**Deployed on Vercel**: [View Live Portfolio]([https://your-url.vercel.app](https://tinyurl.com/DeepaRannorePortfolio))
 
 ## ✨ Features
 
@@ -15,53 +13,10 @@ A responsive and interactive portfolio website showcasing my professional experi
   - 🌿 Light Nature Theme (with falling leaves and flowers)
   - 🤖 Tech Theme (with AI/ML icons and circuit patterns)
 
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile
-- **Smooth Animations**: Powered by Framer Motion
-- **Interactive Navigation**: Scroll-based navigation with active section highlighting
-- **Dynamic Backgrounds**: Animated backgrounds that match each theme
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
-## 📁 Project Structure
-
-```
-Portfolio/
-├── public/
-│   └── assets/
-│       └── profile-image.jpeg
-├── src/
-│   ├── components/
-│   │   ├── PortfolioPage.jsx
-│   │   ├── NavigationBar.jsx
-│   │   └── ThemeSwitcher.jsx
-│   ├── contexts/
-│   │   └── ThemeContext.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── package.json
-└── vite.config.js
-```
+- **Responsive Design**: 
+- **Smooth Animations**: 
+- **Interactive Navigation**:
+- **Dynamic Backgrounds**: 
 
 ## 🛠️ Technologies Used
 
@@ -73,39 +28,18 @@ Portfolio/
 
 ## 📝 Sections
 
-1. **Hero Section** - Welcome message with profile image
-2. **About** - Personal introduction and contact information
-3. **Education** - Academic background
-4. **Experience** - Professional work history
-5. **Skills** - Technical skills and competencies
-6. **Projects** - Research and academic projects with GitHub links
-7. **Publications** - Research publications
-8. **Certifications** - Professional certifications
-
-## 🎨 Customization
-
-### Themes
-Themes can be customized in `src/index.css` by modifying CSS variables:
-- `--theme-bg-primary`
-- `--theme-text-primary`
-- `--theme-primary`
-- etc.
-
-### Content
-Update content in `src/components/PortfolioPage.jsx`
-
-## 📦 Deployment
-
-This project is configured for deployment on:
-- **Vercel** (recommended)
-- **Netlify**
-- **GitHub Pages**
-
-See `DEPLOYMENT_GUIDE.md` for detailed deployment instructions.
+1. **Hero Section** 
+2. **About**
+3. **Education** 
+4. **Experience** 
+5. **Skills**
+6. **Projects** 
+7. **Publications** 
+8. **Certifications** 
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+This project is under the MIT License.
 
 ## 👤 Author
 
@@ -117,3 +51,4 @@ This project is open source and available under the MIT License.
 ---
 
 Built with ❤️ using React and Vite
+
