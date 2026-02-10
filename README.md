@@ -4,7 +4,7 @@ A responsive and interactive portfolio website showcasing my professional experi
 
 ## 🌐 Live Website
 
-**Deployed on Vercel**: [View Live Portfolio]([https://your-url.vercel.app](https://tinyurl.com/DeepaRannorePortfolio))
+**Deployed on Vercel**: https://tinyurl.com/DeepaRannorePortfolio
 
 ## ✨ Features
 
@@ -51,4 +51,5 @@ This project is under the MIT License.
 ---
 
 Built with ❤️ using React and Vite
+
 
